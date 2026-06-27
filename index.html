@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="auth">
+
+            <h2 id="title">Login</h2>
+
+            <input type="email" id="email" placeholder="Enter Email">
+
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <button id="mainBtn">
+                Login
+            </button>
+
+            <div class="switch" id="switchBtn">
+                Create Account
+            </div>
+
+            <div id="error"></div>
+
+        </div>
+
+
+        <div id="home">
+
+            <div class="nav">
+
+                <h3>My Website</h3>
+
+                <button class="logoutBtn" onclick="logout()">
+                    Logout
+                </button>
+
+            </div>
+
+            <h2>Welcome</h2>
+
+            <p id="userEmail"></p>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
